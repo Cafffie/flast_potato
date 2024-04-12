@@ -3,6 +3,7 @@ from PIL import Image
 import numpy as np
 from werkzeug.utils import secure_filename
 import tensorflow as tf
+import request
 import os
 
 app = Flask(__name__)
